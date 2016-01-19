@@ -1,4 +1,5 @@
-function makeBlockColumn( ) {
+// Basic example with boolean logic
+function booleanLogic( ) {
   // build a column of different block types
   // the variable i will contain the block ID	
   var i ;
@@ -18,4 +19,4 @@ function makeBlockColumn( ) {
   this.move('mystartposition'); 
 };
 var Drone = require('drone'); 
-Drone.extend( makeBlockColumn );
+Drone.extend( booleanLogic );
